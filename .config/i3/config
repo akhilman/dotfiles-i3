@@ -214,6 +214,7 @@ bar {
         tray_output primary
         position top
         bindsym button1 exec xfce4-appfinder
+        bindsym button3 scratchpad show
 }
 
 
