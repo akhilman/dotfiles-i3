@@ -224,6 +224,7 @@ for_window [class="Pavucontrol"] floating enable; fullscreen disable; focus floa
 for_window [class="Pavumeter"] floating enable; fullscreen disable; focus floating
 for_window [class="Paman"] floating enable; fullscreen disable; focus floating
 for_window [class="Qstardict"] floating enable; fullscreen disable; focus floating
+for_window [class="Stardict"] floating enable; fullscreen disable; focus floating
 
 # add border for gnome3 apps
 for_window [class="Nautilus"] border pixel 2
