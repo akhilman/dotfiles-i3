@@ -21,6 +21,7 @@ order += "disk /home"
 order += "load"
 order += "tztime local"
 order += "tztime moscow"
+order += "tztime berlin"
 order += "tztime utc"
 order += "tztime est"
 
@@ -49,6 +50,11 @@ run_watch VPN {
 
 tztime local {
         format = "%Y-%m-%d %H:%M %Z"
+}
+
+tztime berlin {
+        format = "%H:%M %Z"
+        timezone = "Europe/Berlin"
 }
 
 tztime moscow {
