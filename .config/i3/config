@@ -54,6 +54,8 @@ bindsym Mod1+F2 fullscreen disable; exec grun
 bindsym $mod+Shift+c kill
 bindsym Mod1+F4 kill
 bindsym button2 kill
+# workaround https://github.com/i3/i3/issues/2523
+bindsym Mod2+button2 kill
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec dmenu_run
